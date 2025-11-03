@@ -76,7 +76,7 @@
 
 @theme inline {
 	--font-ibm-sans: [ "IBM Plex Sans", "sans-serif"];
-	--font-bebas-neue: [ "var(--bebas-neue)"];
+	--font-bebas-neue: var(--bebas-neue);
 	--color-background: var(--background);
 	--color-foreground: var(--foreground);
 	--color-card: var(--card);

@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
 import localFont from "next/font/local";
@@ -34,7 +33,7 @@ export default function RootLayout({
 	return (
 		<html lang="en">
 			<body
-				className={`${ibmPlexSans.className} ${bebasNeue.className} antialiased`}
+				className={`${ibmPlexSans.className} ${bebasNeue.variable} antialiased`}
 			>
 				{children}
 			</body>
